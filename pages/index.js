@@ -3,23 +3,23 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div mienhead={styles.kien}>
       <Head>
-        <title>Create Next App</title>
+        <title> My first web with nextjs </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <kienmain className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Click vào để bắt đầu <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        <p className={styles.describle}>
+          hãy thay đổi file {''}
+          <file className={styles.code}>pages/index.js</file>
         </p>
 
-        <div className={styles.grid}>
+        <div className={styles.documentation}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </main>
+      </kienmain>
 
       <footer className={styles.footer}>
         <a
