@@ -9,17 +9,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <kienmain className={styles.main}>
+      <main className={styles.main}>
         <h1 className={styles.title}>
           Click vào để bắt đầu <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.describle}>
+        <p className={styles.description}>
           hãy thay đổi file {''}
-          <file className={styles.code}>pages/index.js</file>
+          <code className={styles.code}>pages/index.js</code>
         </p>
 
-        <div className={styles.documentation}>
+        <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-      </kienmain>
+      </main>
 
       <footer className={styles.footer}>
         <a
